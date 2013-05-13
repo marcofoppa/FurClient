@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ee31dc55-42ac-4083-89d1-1e26989a7b5f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://toscana.webdpc.it/FurService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FurService.disco" MetadataType="Disco" ID="f671ab1e-01a4-43f9-937f-37507221319b" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?disco" />
+    <MetadataFile FileName="FurService.wsdl" MetadataType="Wsdl" ID="baf305b4-1499-4fb8-8e24-5e1a2a10efc0" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="FurService.xsd" MetadataType="Schema" ID="252c1cb0-7d34-4c02-ab5c-834afd2a69fd" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FurService1.xsd" MetadataType="Schema" ID="8692cdb3-81c8-4058-891b-fb8aaf2d36ed" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd3" />
+    <MetadataFile FileName="FurService2.xsd" MetadataType="Schema" ID="ba8e1d08-935a-4ae8-8f83-d03b20b62a29" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FurService3.xsd" MetadataType="Schema" ID="ab95c48d-4ef4-4468-8f83-84d5fc3142e9" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FurService4.xsd" MetadataType="Schema" ID="3fdebfad-2b9f-466a-8398-17f90a8dff08" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd6" />
+    <MetadataFile FileName="FurService5.xsd" MetadataType="Schema" ID="e6bc729f-3a31-4ad0-84cb-5941aead8003" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd5" />
+    <MetadataFile FileName="FurService6.xsd" MetadataType="Schema" ID="c3c33744-7c16-4935-a484-116af5ca72ce" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?xsd=xsd4" />
+    <MetadataFile FileName="FurDpcService.wsdl" MetadataType="Wsdl" ID="cda47cea-688b-459c-b4e9-1845e0abde29" SourceId="1" SourceUrl="https://toscana.webdpc.it/FurService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
