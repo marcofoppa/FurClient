@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnScaricaFur = new System.Windows.Forms.Button();
-            this.tbFur = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tbUrl = new System.Windows.Forms.TextBox();
@@ -45,6 +44,7 @@
             this.cbApplicazioni = new System.Windows.Forms.ComboBox();
             this.cbAsl = new System.Windows.Forms.ComboBox();
             this.btnSalva = new System.Windows.Forms.Button();
+            this.tbFur = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnScaricaFur
@@ -57,20 +57,10 @@
             this.btnScaricaFur.UseVisualStyleBackColor = true;
             this.btnScaricaFur.Click += new System.EventHandler(this.button1_Click);
             // 
-            // tbFur
-            // 
-            this.tbFur.AcceptsReturn = true;
-            this.tbFur.Location = new System.Drawing.Point(12, 130);
-            this.tbFur.Multiline = true;
-            this.tbFur.Name = "tbFur";
-            this.tbFur.ReadOnly = true;
-            this.tbFur.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbFur.Size = new System.Drawing.Size(553, 280);
-            this.tbFur.TabIndex = 10;
-            // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(489, 414);
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClear.Location = new System.Drawing.Point(506, 460);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 7;
@@ -202,8 +192,9 @@
             // 
             // btnSalva
             // 
+            this.btnSalva.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalva.Enabled = false;
-            this.btnSalva.Location = new System.Drawing.Point(408, 414);
+            this.btnSalva.Location = new System.Drawing.Point(425, 460);
             this.btnSalva.Name = "btnSalva";
             this.btnSalva.Size = new System.Drawing.Size(75, 23);
             this.btnSalva.TabIndex = 18;
@@ -211,11 +202,25 @@
             this.btnSalva.UseVisualStyleBackColor = true;
             this.btnSalva.Click += new System.EventHandler(this.btnSalva_Click);
             // 
+            // tbFur
+            // 
+            this.tbFur.AcceptsReturn = true;
+            this.tbFur.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbFur.Location = new System.Drawing.Point(12, 130);
+            this.tbFur.Multiline = true;
+            this.tbFur.Name = "tbFur";
+            this.tbFur.ReadOnly = true;
+            this.tbFur.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.tbFur.Size = new System.Drawing.Size(572, 323);
+            this.tbFur.TabIndex = 10;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 449);
+            this.ClientSize = new System.Drawing.Size(596, 492);
             this.Controls.Add(this.btnSalva);
             this.Controls.Add(this.cbAsl);
             this.Controls.Add(this.cbApplicazioni);
@@ -233,6 +238,7 @@
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.tbFur);
             this.Controls.Add(this.btnScaricaFur);
+            this.MinimumSize = new System.Drawing.Size(612, 530);
             this.Name = "FormMain";
             this.Text = "Interrogazione FUR DPC";
             this.ResumeLayout(false);
@@ -243,7 +249,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnScaricaFur;
-        private System.Windows.Forms.TextBox tbFur;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbUrl;
@@ -259,6 +264,7 @@
         private System.Windows.Forms.ComboBox cbApplicazioni;
         private System.Windows.Forms.ComboBox cbAsl;
         private System.Windows.Forms.Button btnSalva;
+        private System.Windows.Forms.TextBox tbFur;
     }
 }
 
