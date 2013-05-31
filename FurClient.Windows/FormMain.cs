@@ -76,7 +76,7 @@ namespace FurClient
         {
             _installazioni = new Dictionary<string, Installazione>();
 
-            XDocument doc = XDocument.Load(@"..\..\Configuration.xml");
+            XDocument doc = XDocument.Load(@"Configuration.xml");
 
             foreach (var applicazione in doc.Elements("ConfigurazioneClientFur").Elements())
             {
