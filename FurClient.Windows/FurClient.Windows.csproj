@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FurClient.Windows</RootNamespace>
     <AssemblyName>FurClient.Windows</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -72,6 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -86,26 +88,26 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\FurService\FurDpcService.wsdl" />
-    <None Include="Service References\FurService\FurService.wsdl" />
-    <None Include="Service References\FurService\FurService.xsd">
+    <None Include="Service References\FurService\furservice.wsdl" />
+    <None Include="Service References\FurService\furservice.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\FurService\FurService1.xsd">
+    <None Include="Service References\FurService\furservice1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\FurService\FurService2.xsd">
+    <None Include="Service References\FurService\furservice2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\FurService\FurService3.xsd">
+    <None Include="Service References\FurService\furservice3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\FurService\FurService4.xsd">
+    <None Include="Service References\FurService\furservice4.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\FurService\FurService5.xsd">
+    <None Include="Service References\FurService\furservice5.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\FurService\FurService6.xsd">
+    <None Include="Service References\FurService\furservice6.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -116,25 +118,17 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\FurService\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\FurService\FurService.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\FurService\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\FurService\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Configuration.xml" />
     <None Include="Service References\FurService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Service References\FurService\configuration.svcinfo" />
+    <None Include="Service References\FurService\configuration91.svcinfo" />
+    <None Include="Service References\FurService\furservice.disco" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Configuration.xml" />
+    <WCFMetadataStorage Include="Service References\FurService\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -2,13 +2,13 @@
 <wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://schemas.studiofarma.it/WebDPC/FurService" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.studiofarma.it/WebDPC/FurService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <xsd:schema targetNamespace="http://schemas.studiofarma.it/WebDPC/FurService/Imports">
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd0" namespace="http://schemas.studiofarma.it/WebDPC/FurService" />
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd6" namespace="http://schemas.studiofarma.it/WebDPC/DpcFaultDetail" />
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd2" namespace="http://schemas.studiofarma.it/WebDPC/FurRequest" />
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd3" namespace="http://schemas.studiofarma.it/WebDPC/FurService/Distinta" />
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd4" namespace="http://schemas.studiofarma.it/WebDPC/FurService/Ricetta" />
-      <xsd:import schemaLocation="https://toscana.webdpc.it/FurService.svc?xsd=xsd5" namespace="http://schemas.studiofarma.it/WebDPC/FurService/Prodotto" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd0" namespace="http://schemas.studiofarma.it/WebDPC/FurService" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd6" namespace="http://schemas.studiofarma.it/WebDPC/DpcFaultDetail" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd2" namespace="http://schemas.studiofarma.it/WebDPC/FurRequest" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd3" namespace="http://schemas.studiofarma.it/WebDPC/FurService/Distinta" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd4" namespace="http://schemas.studiofarma.it/WebDPC/FurService/Ricetta" />
+      <xsd:import schemaLocation="https://toscana.webdpc.it/furservice.svc?xsd=xsd5" namespace="http://schemas.studiofarma.it/WebDPC/FurService/Prodotto" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IFurService_GetFUR_InputMessage">
